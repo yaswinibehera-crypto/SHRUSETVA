@@ -1,0 +1,248 @@
+/* =======================================================
+   SHRUSETVA - Museum Theme
+======================================================= */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Lora:wght@400;500&display=swap');
+
+/* Hide Streamlit Branding */
+#MainMenu {visibility:hidden;}
+footer {visibility:hidden;}
+header {visibility:hidden;}
+
+/* Whole App */
+.stApp{
+    background: linear-gradient(
+        rgba(18,12,8,0.92),
+        rgba(18,12,8,0.92)
+    ),
+    url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1800&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color:#F5F1E8;
+}
+
+/* Main Container */
+.block-container{
+    padding-top:2rem;
+    padding-left:6rem;
+    padding-right:6rem;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:90px 40px;
+    border-radius:20px;
+
+    background:rgba(35,25,18,0.55);
+
+    border:1px solid rgba(212,175,55,.25);
+
+    backdrop-filter: blur(4px);
+
+    margin-bottom:40px;
+}
+
+.hero h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:72px;
+
+    color:#D4AF37;
+
+    letter-spacing:6px;
+
+    margin-bottom:10px;
+}
+
+.hero h3{
+
+    font-family:'Cinzel',serif;
+
+    color:#F5F1E8;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+}
+
+.subtitle{
+
+    font-size:23px;
+
+    font-family:'Lora',serif;
+
+    color:#E8D9B5;
+}
+
+.description{
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+    font-size:19px;
+
+    color:#DDD2C0;
+
+    font-family:'Lora',serif;
+}
+
+/* Section Titles */
+
+.section-title{
+
+    font-family:'Cinzel',serif;
+
+    color:#D4AF37;
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    margin-top:40px;
+}
+
+/* About */
+
+.about-box{
+
+    background:#2A2017;
+
+    border-left:6px solid #D4AF37;
+
+    border-radius:16px;
+
+    padding:35px;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+    font-family:'Lora',serif;
+
+    color:#EFE7D8;
+
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+/* Cards */
+
+.pillar{
+
+    background:#302419;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    text-align:center;
+
+    min-height:220px;
+
+    transition:.3s;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    box-shadow:0 0 18px rgba(0,0,0,.35);
+}
+
+.pillar:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#D4AF37;
+
+    box-shadow:0 0 28px rgba(212,175,55,.25);
+}
+
+.pillar h3{
+
+    font-family:'Cinzel',serif;
+
+    color:#D4AF37;
+
+    font-size:34px;
+
+    margin-bottom:20px;
+}
+
+.pillar p{
+
+    color:#F5F1E8;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    font-family:'Lora',serif;
+}
+
+/* Workflow */
+
+.workflow{
+
+    text-align:center;
+
+    background:#2A2017;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    line-height:2.3;
+
+    font-size:22px;
+
+    color:#F5F1E8;
+
+    font-family:'Lora',serif;
+
+    border:1px solid rgba(212,175,55,.2);
+
+    margin-bottom:60px;
+}
+
+/* Divider */
+
+hr{
+
+    border:1px solid rgba(212,175,55,.2);
+}
+
+/* Button */
+
+.stButton>button{
+
+    background:#B8860B;
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    transition:.3s;
+}
+
+.stButton>button:hover{
+
+    background:#D4AF37;
+
+    color:black;
+
+    transform:scale(1.02);
+}
